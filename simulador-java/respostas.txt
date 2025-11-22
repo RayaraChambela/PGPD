@@ -49,11 +49,5 @@ Atividade 4
 
 O simulador é considerado estocástico porque os tempos de atendimento são gerados a partir de variáveis aleatórias que seguem uma distribuição normal. 
 Mesmo utilizando os mesmos parâmetros, cada execução produz resultados ligeiramente diferentes. Isso representa bem situações reais: 
-clientes diferentes levam tempos diferentes no caixa por fatores como forma de pagamento, experiência do atendente e quantidade de itens. Assim, o sistema nunca produz exatamente o mesmo valor, ele segue uma tendência, mas com variabilidade natural.
-
----
-
-Conclusão
-
-Este experimento mostra como parâmetros como número de caixas e variabilidade dos atendimentos influenciam o desempenho do sistema. 
-Ao variar esses elementos, observamos mudanças claras na média e dispersão das simulações, permitindo prever o impacto de decisões operacionais em um supermercado.
+clientes diferentes levam tempos diferentes no caixa por fatores como forma de pagamento, experiência do atendente e quantidade de itens. 
+Assim, o sistema nunca produz exatamente o mesmo valor, ele segue uma tendência, mas com variabilidade natural.
