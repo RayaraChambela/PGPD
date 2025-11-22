@@ -1,0 +1,53 @@
+Atividade 1 
+
+**Parâmetros utilizados:**
+- Número de caixas: **1**
+- µ = **5.0 min**
+- σ = **0.5 min**
+- N = **100**
+- Rodadas = **1000**
+
+**Resultados obtidos:**
+- Média das médias: 5 min  
+- Desvio-padrão das médias: 0.050 min  
+
+---
+
+Atividade 2
+
+Parâmetros fixos: µ = 5.0, σ = 0.5, N = 100, 1000 rodadas.
+
+| Nº de caixas | Média das médias (min) | Desvio-padrão das médias (min) |
+|-------------:|------------------------:|--------------------------------:|
+| 1            | 5                           | 0.050                              |
+| 2            | 2.5                         | 0.025                              |
+| 3            | 1.667                       | 0.017                              |
+
+
+Ao aumentar o número de caixas, o tempo médio de atendimento diminui, pois o atendimento passa a ocorrer em paralelo. 
+Assim, a carga de trabalho é dividida entre mais servidores, reduzindo o tempo médio efetivo por cliente.
+
+---
+
+Atividade 3 
+
+Parâmetros fixos: nº de caixas = 1, µ = 5.0, N = 100, 1000 rodadas.
+
+| σ (min) | Média das médias (min) | Desvio-padrão das médias (min) |
+|--------:|------------------------:|--------------------------------:|
+| 0.25    | 5                         | 0,025                              |
+| 1.00    | 5                         | 0.100                              |
+| 2.00    | 5.004                     | 0.198                              |
+
+
+A média permanece próxima da média teórica µ, mas o desvio-padrão das médias cresce conforme σ aumenta. 
+Quanto maior a variabilidade individual dos atendimentos, mais dispersos ficam os resultados das simulações.
+
+---
+
+Atividade 4 
+
+O simulador é considerado estocástico porque os tempos de atendimento são gerados a partir de variáveis aleatórias que seguem uma distribuição normal. 
+Mesmo utilizando os mesmos parâmetros, cada execução produz resultados ligeiramente diferentes. Isso representa bem situações reais: 
+clientes diferentes levam tempos diferentes no caixa por fatores como forma de pagamento, experiência do atendente e quantidade de itens. 
+Assim, o sistema nunca produz exatamente o mesmo valor, ele segue uma tendência, mas com variabilidade natural.

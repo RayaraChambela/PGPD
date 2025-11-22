@@ -19,9 +19,7 @@ public class Main {
         final List<Double> mediasAtendimento = new ArrayList<>();
 
         SimulacaoCaixaSupermercado simulador = new SimulacaoCaixaSupermercado();
-
-        // ====== CONFIGURAÇÃO BASE DA ATIVIDADE 1 ======
-        // µ = 5.0, σ = 0.5, N = 100 clientes, 1 caixa
+        
         int numeroCaixas = 1;
         int mediaAtendimentos = 100;
         double mu = 5.0;
@@ -48,11 +46,6 @@ public class Main {
             "Desvio-padrão das médias: %.3f min%n",
             dp
         );
-
-        // Para as atividades 2 e 3, você só precisa alterar:
-        // - numeroCaixas (1, 2, 3)
-        // - sigma (0.25, 0.5, 1.0, 2.0)
-        // e rodar novamente, registrando os resultados no markdown.
     }
 
     private static double media(List<Double> xs) {
