@@ -48,8 +48,8 @@ Quanto maior a variabilidade individual dos atendimentos, mais dispersos ficam o
 Atividade 4 
 
 O simulador é considerado estocástico porque os tempos de atendimento são gerados a partir de variáveis aleatórias que seguem uma distribuição normal. 
-Mesmo utilizando os mesmos parâmetros, cada execução produz resultados ligeiramente diferentes. Isso representa bem situações reais: clientes diferentes levam tempos diferentes no caixa por fatores como forma de pagamento, experiência do atendente e quantidade de itens. Assim, o sistema nunca produz exatamente o mesmo valor — ele segue uma tendência,
-mas com variabilidade natural.
+Mesmo utilizando os mesmos parâmetros, cada execução produz resultados ligeiramente diferentes. Isso representa bem situações reais: 
+clientes diferentes levam tempos diferentes no caixa por fatores como forma de pagamento, experiência do atendente e quantidade de itens. Assim, o sistema nunca produz exatamente o mesmo valor, ele segue uma tendência, mas com variabilidade natural.
 
 ---
 
